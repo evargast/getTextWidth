@@ -1,0 +1,29 @@
+{
+    "name": "simple-npm-module",
+    "version": "1.0.0",
+    "description": "This is an NPM module! ",
+    "main": "./lib/index.js",
+    "module": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/evargast/simple-npm-module.git"
+    },
+    "keywords": [],
+    "author": "Eduardo Vargas <eduardo@adobe.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/evargast/simple-npm-module/issues"
+    },
+    "homepage": "https://github.com/evargast/simple-npm-module#readme",
+    "devDependencies": { },
+    "dependencies": {
+        "typescript": "^3.9.7"
+    },
+    "peerDependencies": { }
+}
