@@ -1,7 +1,7 @@
 {
-    "name": "simple-npm-module",
+    "name": "get-text-width",
     "version": "1.0.0",
-    "description": "This is an NPM module! ",
+    "description": "This module helps calculate the rendered width of text.",
     "main": "./lib/index.js",
     "module": "./lib/index.js",
     "types": "./lib/index.d.ts",
@@ -12,18 +12,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/evargast/simple-npm-module.git"
+        "url": "git+https://github.com/evargast/getTextWidth.git.git"
     },
     "keywords": [],
     "author": "Eduardo Vargas <eduardo@adobe.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/evargast/simple-npm-module/issues"
+        "url": "https://github.com/evargast/getTextWidth.git/issues"
     },
-    "homepage": "https://github.com/evargast/simple-npm-module#readme",
-    "devDependencies": { },
+    "homepage": "https://github.com/evargast/getTextWidth.git#readme",
+    "devDependencies": {},
     "dependencies": {
         "typescript": "^3.9.7"
     },
-    "peerDependencies": { }
+    "peerDependencies": {}
 }
