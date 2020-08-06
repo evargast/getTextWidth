@@ -14,7 +14,8 @@ import { getTextWidth } from 'get-text-width';
 
 const width = getTextWidth("Hello world");
 
-// You can also pass in a custom default backup font height:width ratio like so
+// The function also accepts as custom 
+// backup font height:width ratio like so:
 const width = getTextWidth("Hello world", 0.5);
 
 

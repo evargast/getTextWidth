@@ -1,6 +1,6 @@
 {
     "name": "get-text-width",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This module helps calculate the rendered width of text.",
     "main": "./lib/index.js",
     "module": "./lib/index.js",
@@ -14,7 +14,10 @@
         "type": "git",
         "url": "git+https://github.com/evargast/getTextWidth.git.git"
     },
-    "keywords": [],
+    "keywords": [
+        "typescript", "javascript", "node",
+         "width", "react", "vue", "overflow", 
+         "angular", "canvas", "jest"],
     "author": "Eduardo Vargas <eduardo@adobe.com>",
     "license": "ISC",
     "bugs": {
