@@ -1,6 +1,6 @@
 {
     "name": "get-text-width",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "This module helps calculate the rendered width of text.",
     "main": "./lib/index.js",
     "module": "./lib/index.js",
@@ -34,10 +34,9 @@
     },
     "homepage": "https://github.com/evargast/getTextWidth.git#readme",
     "devDependencies": {
-        "uglify-js": "^3.14.2"
-    },
-    "dependencies": {
+        "uglify-js": "^3.14.2",
         "typescript": "^4.4.2"
     },
+    "dependencies": {},
     "peerDependencies": {}
 }
