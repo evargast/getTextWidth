@@ -1,7 +1,13 @@
+/**
+ * @param inputText: text to be measured
+ * @param backupRatio: if something goes wrong, this number will be used to give a width estimate, the average open-sans font height-width ratio is 0.5  
+ * 
+ * @returns {number} numeric value of width in pixels
+ */
 export const getTextWidth = (() => {
   const container = document.createElement('canvas');
 
-  return function (inputText?: string | number | null, backupRatio = 0.5) {
+  return function (inputText?: string | number | null, backupRatio = 0.5): number {
     let width = 0;
     let text = inputText ?? '';
     text = text.toString();

@@ -1,12 +1,13 @@
 {
     "name": "get-text-width",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This module helps calculate the rendered width of text.",
     "main": "./lib/index.js",
     "module": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "scripts": {
         "build": "tsc",
+        "postbuild": "uglifyjs --compress --mangle --output ./lib/index.js -- ./lib/index.js",
         "prepublish": "npm run build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -15,18 +16,28 @@
         "url": "git+https://github.com/evargast/getTextWidth.git.git"
     },
     "keywords": [
-        "typescript", "javascript", "node",
-         "width", "react", "vue", "overflow", 
-         "angular", "canvas", "jest"],
+        "typescript",
+        "javascript",
+        "node",
+        "width",
+        "react",
+        "vue",
+        "overflow",
+        "angular",
+        "canvas",
+        "jest"
+    ],
     "author": "Eduardo Vargas <eduardo@adobe.com>",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/evargast/getTextWidth.git/issues"
     },
     "homepage": "https://github.com/evargast/getTextWidth.git#readme",
-    "devDependencies": {},
+    "devDependencies": {
+        "uglify-js": "^3.14.2"
+    },
     "dependencies": {
-        "typescript": "^3.9.7"
+        "typescript": "^4.4.2"
     },
     "peerDependencies": {}
 }
